@@ -56,3 +56,5 @@ jobs:
 
             docker push ${{secrets.ACR_SERVER}}/leasify/storybook:${{ steps.date.outputs.date }}
             docker push ${{secrets.ACR_SERVER}}/leasify/storybook:latest
+
+            
